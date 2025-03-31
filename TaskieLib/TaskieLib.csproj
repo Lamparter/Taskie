@@ -1,14 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net9.0-windows10.0.26100.0</TargetFramework>
-    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
-    <UseUwp>true</UseUwp>
-    <UseUwpTools>true</UseUwpTools>
+    <TargetFramework>netstandard2.1</TargetFramework>
     <IsAotCompatible>true</IsAotCompatible>
-    <DisableRuntimeMarshalling>true</DisableRuntimeMarshalling>
-    <PlatformTarget>x64</PlatformTarget>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <SupportedOSPlatformVersion>10.0.18362.0</SupportedOSPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="System.Text.Json" Version="9.0.3" />
